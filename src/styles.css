@@ -1,0 +1,101 @@
+#container {
+  position: relative;
+  color: black;
+  font-family: sans;
+}
+
+#container::after {
+  content: "";
+  background: url("clock1.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 45px;
+}
+
+button {
+margin: 0 10px;
+background-color:transparent;
+border-radius: 5px;
+}
+
+.clock {
+  max-width: 90%;
+  text-align: center;
+  margin: auto;
+  padding:70px;
+}
+
+#adjust-time-box {
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+#break-box {
+  margin: 0 10px;
+}
+#session-box {
+  margin: 0 10px;
+}
+
+.adjust-time {
+  display: flex;
+  margin: 5px auto;
+  justify-content:center;
+}
+
+.break {
+  display: flex;
+  margin: 4px;
+}
+
+.breakLength {
+  margin: 10px;
+}
+
+.time {
+  border: 4px solid black;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  max-width:200px;
+  min-width:160px;
+  font-size:20px;
+ 
+}
+
+span{
+font-size:40px;
+}
+
+.playPause {
+  font-size:22px;
+  padding: 10px;
+}
+
+.play {
+  margin: 4px;
+}
+
+.pause {
+  margin: 4px;
+}
+
+.restart {
+  margin: 4px;
+}
